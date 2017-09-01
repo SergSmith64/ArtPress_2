@@ -1,0 +1,876 @@
+/* ___МИНИМАЛЬНЫЙ РЕЗЕТ
+*{margin:0;padding:0;}
+__ */
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+/*Scrollbar__РАБОТАЕТ ???? НЕПОНЯТНО 
+
+::-webkit-scrollbar {
+  width: 0.2em;
+  height: 0.2em;
+}
+*::-webkit-scrollbar-button {
+   background: #ccc;
+}
+::-webkit-scrollbar-track-piece {
+  background: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background: #6E6F72;
+}
+*/
+/* КОНЕЦ___Scrollbar*/
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+/* _______________________________ */
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+/*	font-family: "PFDinDisplayPro-Regular", sans-serif;	*/
+/*	font-family: "PFDinDisplayPro-Light", sans-serif;	*/
+/*	overflow-x: hidden;			*/
+	background-color: #000;
+/* КАКОЙ-ТО __cover__*/
+/* БЕЗ КОВЕРА - ЛУЧШЕ, ОН КАК-ТО СТРАННО МАСШТАБИРУЕТ */
+/* __background-image: url(../img/_BG_Top_Logo_2.jpg) no-repeat fixed top center / cover;__*/
+}
+
+
+/* {
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+}*/
+h1, h2, h3 {
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+	font-weight: bold;
+	margin-top: 8px;
+	margin-bottom: 0;
+	color: #FFF;
+}
+h1 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 15px;
+	margin-top: 0;
+	padding-top: 0;
+	padding-bottom: 8px;
+}
+h2 {
+	padding-bottom: 3px;
+	font-size: 14px;
+}
+h3 {
+	font-size: 14px;
+}
+
+/* _______________________________ */
+
+.header_big {
+	margin-top: 100px;
+}
+
+/* ______________________________ */
+
+/* _ПЕРЕОПРЕДЕЛЯЮ БУТСТРАП_ */
+/* _ВЕРХНЕЕ МЕНЮ_ */
+
+.navbar {
+	border-radius: 4px;
+/* БЫЛО _border: 1px_ ДЕЛАЮ = 0 */
+	border: 0px solid transparent;
+/* БЫЛО _margin-bottom: 20px_ ДЕЛАЮ = 0 */
+/* ЭТО ВАЖНО !!! _margin-bottom: = 0 */
+	margin-bottom: 0px;
+/* ЭТО НЕ РАБОТАЕТ __min-height */
+	min-height: 50px;
+	position: relative;
+}
+.navbar ul {
+/* ___ПРОБУЮ УЧЕСТЬ ХРОМ____*/
+/*	-webkit-margin-before: 0em;		*/
+/*	-webkit-margin-after: 0em;		*/
+/*	-webkit-margin-start: 0px;		*/
+/*	-webkit-margin-end: 0px;		*/
+/*	-webkit-padding-start: 0px;		*/
+}
+/* _МЕНЯЮ ЦВЕТ ССЫЛОК МЕНЮ - как в PhotoShop-е */
+/* толи .NAVBAR-NAV , толи NAV  */
+.nav > li > a {
+/*	color: red;		*/
+/* __ФИРМЕННЫЙ СЕРЫЙ ЦВЕТ__#aaaa95;_*/
+	color: #aaaa95;
+	text-transform: uppercase;
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+	font-size: 16px;
+}
+/* _ИЗ БУТСТРАП_ */
+.nav > li > a:hover {
+/*	background-color: #eeeeee;	*/
+	background-color: transparent;
+	text-decoration: none;
+	color: red;
+}
+.nav > li > a:focus {
+	text-decoration: none;
+	color: #aaaa85;
+}
+
+
+li span {
+/* __а потом скрываем тэг span__ */
+/* __чтобы сами пункты меню остались__ */
+/* __чтобы их не стирать__ */
+/* __это нужно для СЕО__ */
+/*	display: none;		*/
+}
+
+.sdvig {
+/*	margin-left: 119px;		*/
+	margin-left: 120px;
+/*	margin-top: 48px;		*/
+	margin-top: 43px;
+/*	margin-bottom: -13px;	*/
+	margin-bottom: -9px;
+}
+
+/*  display: block;__ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+
+li.category_8 a {
+	margin-left: 2px;
+	margin-top: -16px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_1_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 102px;
+	height: 72px;
+	margin-left: 2px;
+	display: block;
+*/
+}
+li.category_8 a:hover {
+/*	background: url(../img/Button_Top_1_Red.png) no-repeat;
+	background-color: transparent;
+	width: 102px;
+	height: 72px;
+*/
+}
+
+li.category_9 a {
+	margin-left: 38px;
+	margin-top: -31px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_2_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 140px;
+	height: 72px;
+	margin-left: 12px;
+	display: block;
+*/
+}
+
+li.category_9 a:hover {
+/*	background: url(../img/Button_Top_2_Red.png) no-repeat;
+	background-color: transparent;
+	width: 140px;
+	height: 72px;
+*/
+}
+
+li.category_10 a {
+	margin-left: 20px;
+	margin-top: 8px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_3_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 122px;
+	height: 72px;
+	margin-left: 12px;
+	display: block;
+*/
+}
+
+li.category_10 a:hover {
+/*	background: url(../img/Button_Top_3_Red.png) no-repeat;
+	background-color: transparent;
+	width: 122px;
+	height: 72px;
+*/
+}
+
+li.category_11 a {
+	margin-left: 56px;
+	margin-top: 3px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_4_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 143px;
+	height: 72px;
+	margin-left: 20px;
+	display: block;
+*/
+}
+
+li.category_11 a:hover {
+/*	background: url(../img/Button_Top_4_Red.png) no-repeat;
+	background-color: transparent;
+	width: 143px;
+	height: 72px;
+*/
+}
+
+li.category_12 a {
+/*	margin-left: 152px;		*/
+	margin-left: 157px;
+	margin-top: -31px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_5_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 169px;
+	height: 72px;
+	margin-left: 129px;
+	display: block;
+*/
+}
+
+li.category_12 a:hover {
+/*	background: url(../img/Button_Top_5_Red.png) no-repeat;
+	background-color: transparent;
+	width: 169px;
+	height: 72px;
+*/
+}
+
+li.category_13 a {
+	margin-left: 51px;
+	margin-top: -9px;
+/* _ПЫТАЮСЬ СБРОСИТЬ ПАДДИНГИ У ССЫЛКИ_ */
+	padding-left: 0;
+	padding-right: 0;
+/*	background: url(../img/Button_Top_6_min.png) no-repeat;
+	background-color: transparent;
+	background-position: center center;
+	width: 145px;
+	height: 72px;
+	display: block;
+*/
+}
+
+li.category_13 a:hover {
+/*	background: url(../img/Button_Top_6_Red.png) no-repeat;
+	background-color: transparent;
+	width: 145px;
+	height: 72px;
+*/
+}
+
+
+/* __БОКОВОЕ ВЕРТИКАЛЬНОЕ МЕНЮ ___ */
+
+
+.nav_menu {
+/* ____ПЕРЕМЕЩАЕТ ЛЕВОЕ БОКОВОЕ МЕНЮ - ВВЕРХ <-> ВНИЗ_____*/
+	margin-top: 28px;
+}
+
+
+.nav_menu li {
+/*  УБИРАЕТ КРУЖОЧКИ У СПИСКА МЕНЮ  */
+	list-style-type: none;
+/*  ПУНКТЫ МЕНЮ ЗАХОДЯТ ДРУГ НА ДРУЖКУ */
+/*  ЭТО ОЧЕНЬ ВАЖНО !!! */
+	margin-bottom: -90px;
+/*  ПРОБУЮ ЗАФИКСИРОВАТЬ ВЫСОТУ НОВЫХ КНОПОК*/
+/*	height: 192px;		*/
+}
+.nav_menu li span {
+/* __а потом скрываем тэг span__ */
+/* __чтобы сами пункты меню остались__ */
+/* __чтобы их не стирать__ */
+/* __это нужно для СЕО__ */
+	display: none;
+/*	ЖЕЛТЫЙ - ДЛЯ ПРОВЕРКИ	*/
+	color: yellow;
+}
+
+
+li.category_1 a {
+/*	background: url(../img/Button_Vert_1_G_kontur.png) no-repeat;	*/
+	background: url(../img/Knopka_1_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+/*	width: 55px;
+	height: 104px;
+*/
+	width: 59px;
+	height: 173px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+	margin-bottom: 9px;
+}
+
+li.category_1 a:hover {
+/*	background: url(../img/Button_Vert_1_R.png) no-repeat;	*/
+	background: url(../img/Knopka_1_R_90pr.png) no-repeat;
+	background-color: transparent;
+/*	width: 55px;
+	height: 104px;
+*/
+	width: 59px;
+	height: 173px;
+	background-position: right top;
+	margin-bottom: 9px;
+}
+
+li.category_2 a {
+	background: url(../img/Knopka_2_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+	width: 59px;
+	height: 173px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+	margin-bottom: 40px;
+}
+li.category_2 a:hover {
+	background: url(../img/Knopka_2_R_90pr.png) no-repeat;
+	background-color: transparent;
+	width: 59px;
+	height: 173px;
+	background-position: right top;
+	margin-bottom: 40px;
+}
+
+li.category_3 a {
+	background: url(../img/Knopka_3_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+	width: 59px;
+	height: 173px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+	margin-bottom: 0px;
+}
+li.category_3 a:hover {
+	background: url(../img/Knopka_3_R_90pr.png) no-repeat;
+	background-color: transparent;
+	width: 59px;
+	height: 173px;
+	background-position: right top;
+	margin-bottom: 0px;
+}
+
+li.category_4 a {
+	background: url(../img/Knopka_4_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+	width: 59px;
+	height: 173px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+	margin-bottom: 16px;
+}
+li.category_4 a:hover {
+	background: url(../img/Knopka_4_R_90pr.png) no-repeat;
+	background-color: transparent;
+	width: 59px;
+	height: 173px;
+	background-position: right top;
+	margin-bottom: 16px;
+}
+
+li.category_5 a {
+	background: url(../img/Knopka_5_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+	width: 59px;
+	height: 173px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+	margin-bottom: 25px;
+}
+li.category_5 a:hover {
+	background: url(../img/Knopka_5_R_90pr.png) no-repeat;
+	background-color: transparent;
+	width: 59px;
+	height: 173px;
+	background-position: right top;
+	margin-bottom: 25px;
+}
+
+li.category_6 a {
+	background: url(../img/Knopka_6_G_90pr.png) no-repeat;
+	background-color: transparent;
+	background-position: right top;
+	width: 59px;
+	height: 143px;
+/*  ПОЗВОЛЯЕТ СОХРАНИТЬ РАЗМЕРЫ КАРТИНКИ-КНОПКИ  */
+	display: block;
+}
+li.category_6 a:hover {
+	background: url(../img/Knopka_6_R_90pr.png) no-repeat;
+	background-color: transparent;
+	width: 59px;
+	height: 143px;
+	background-position: right top;
+}
+
+/* _______________________________ */
+
+.sec_okno {
+/*	background-image: url(../img/_BG_Top.jpg);		*/
+/*	background-position: top center;	*/
+/*	min-height: 960px;		*/
+/* __НЕ ЗНАЮ ЗАЧЕМ__*/
+/*	position: relative;		*/
+/*	min-height: 1080px;		*/
+/*	ВСТАВИЛ ИЗ ОКНА		*/
+/*	height: 680px;		*/
+/*	height: 697px; __СТАРОЕ */
+/*	___ВЫСОТА = АВТО - ДЕЛАЕТ ЕЩЁ ХУЖЕ */
+	height: 699px;
+/*	ПОДСВЕЧИВАЕМ ГОЛУБЫМ ЦВЕТОМ ФОН ОКНА	*/
+/*	background-color: cyan;		*/
+	background: transparent;
+	color: #000;
+	overflow-x: hidden;
+/*	overflow: scroll;		*/
+/*  overflow: auto;			*/
+/*	overflow-y: hidden;		*/
+}
+.sec_okno img {
+/* _width: 100% - ОЧЕНЬ НУЖНО _*/
+	width: 100%;
+}
+
+
+
+/* __ЛЕВАЯ ЧАСТЬ ЕЖЕДНЕВНИКА ___ */
+/* __ОФОРМЛЕНИЕ КАРТИНОК ДЛЯ СТАТЕЙ ___ */
+
+.sec_wrap {
+	display: inline-block;
+	/*background-color: green;*/
+	padding: 0;
+	margin: 0;
+}
+
+.pic_souv img {
+	height: 230px;
+	width: 230px;
+	float: left;
+	margin: 6px 15px 10px 0;
+}
+.pic_logo img {
+	height: 100px;
+	width: 200px;
+	float: left;
+	margin: 6px 15px 10px 0;
+}
+.pic_fs img {
+	width: 280px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+.pic_fs2 img {
+	width: 250px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+.pic_fs3 img {
+	width: 260px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+.pic_fs4 img {
+	width: 230px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+
+
+
+.txt_left, .txt_left_2 {
+	margin-top: -652px;
+	font-size: 15px;
+	line-height: 1.2;
+	color: #a9a790;
+	padding: 0 36px 0 17px;
+}
+.txt_left span {
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+/* ____________КОСЛЫЛЬ___________________ */
+/* ___стиль ТОЛЬКО для статьи РАЗРАБОТКА ЛОГОТИПА__*/
+.txt_left_2 span {
+	color: #FFF;
+	text-transform: none;
+}
+
+.sdvig-tirazh-doc h2 {
+	margin-top: 15px;
+}
+
+/* _______НУМЕРАЦИЯ СТРАНИЦ ____________*/
+.page-number {
+	text-transform: none;
+	text-align: right;
+	font-size: 12px;
+	line-height: 0.9;
+	padding-right: 12px;
+	margin-bottom: -16px;
+}
+.page-number-4 {
+	margin-bottom: 4px;
+}
+
+
+
+/* ЧТО-ТО ТИПА PAGINATION */
+.pagi_r {
+	float: right;
+	padding-right: 50px;
+}
+.pagi_l {
+	float: left;
+	padding-left: 50px;
+}
+.pagi_r a,
+.pagi_l a {
+	color: #FFF;
+}
+.pagi_r a:hover,
+.pagi_l a:hover {
+	color: #a9a790;
+}
+
+
+
+/* ______ПРАВАЯ ЧАСТЬ ЕЖЕДНЕВНИКА ___ */
+
+.txt_main {
+	margin-top: -654px;
+	font-size: 15px;
+	color: #a9a790;
+	padding: 0 28px 0 52px;
+	line-height: 1.2;
+}
+.txt_main span {
+	color: #FFF;
+}
+.txt_main a:hover {
+	color: #a9a790;
+}
+
+/* ____НОВЫЙ ТЕКСТ____*/
+.txt_new ul {
+	margin-left: 13px;
+	padding: 0;		/* Убираем поля */
+	text-indent: 0px;
+}
+
+
+/* __КОНТАКТЫ___КАРТА__*/
+.pic_map {
+	margin-top: -640px;
+	text-align: left;
+	color: #a9a790;
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+	font-size: 20px;
+}
+
+/* __ССЫЛКА СО ВСЕХ СТРАНИЦ НА КОНТАКТЫ___*/
+.link_to {
+	color: #FFF;
+}
+.link_to a:hover,
+.link_to a:focus {
+/*	color: #aaaa85;		*/
+	color: yellow;
+}
+
+/* НЕ ЗНАЮ, ОТКУДА ВЗЯЛСЯ ЭТОТ КЛАСС*/
+.icon_curcle {
+	color: red;
+}
+
+/*__КАРТИНКИ-КНОПКИ__*/
+.big_up_1 {
+	margin-top: -645px;
+}
+.big_up_2 {
+	margin-top: -580px;
+}
+.big_up_3 {
+	margin-top: -290px;
+}
+.big_up_4 {
+	margin-top: -225px;
+}
+
+/*__РАЗМЕЩАЮ 4 КАРТИНКИ НА ДИНАМИЧЕСКАЯ РЕКЛАМА__*/
+.dyn_pic_wrap {
+	margin-top: -680px;
+}
+.dyn_pic_wrap img {
+	margin: 10px 0;
+}
+
+
+/* ___ФУТЕР___ */
+
+footer {
+	color: #FFF;
+}
+.social_block {
+	margin-top: 10px;
+	margin-left: -14px;
+	text-align: center;
+}
+.social_block i {
+	font-size: 20px;
+	color: #aaaa95;
+	padding-right: 3px;
+	margin-left: 22px;
+}
+.social_block i:hover {
+	color: red;
+}
+
+/*__ТО, ЧТО БУДЕТ ВСПЛЫВАТЬ__*/
+
+.hidden {
+	display: none;
+}
+.form_hidden {
+	position: relative;
+	margin: auto;
+}
+form {
+	padding: 15px 15px 20px;
+	background-color: rgba(139,25,20,.90);
+	border-radius: 15px;
+	border: #CB1315 3px solid;
+/* ЗАДАЕТ ШИРИНУ ДЛЯ СМАРТФОНА */
+	max-width: 320px;
+/* ПЕРЕМЕЩАЕТ ОКНО В ЦЕНТР */
+	margin: auto;
+/* ЧТОБЫ КНОПКА (крестик-?) БЫЛА ВИДНА */
+	position: relative;
+}
+form input {
+	width: 100%;
+	display: block;
+	line-height: 36px;
+	height: 36px;
+	border: #aaaa95 2px solid;
+	box-shadow: 0 0 20px rgba(0,0,0,.3) inset;
+	text-indent: 7px;
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+	font-size: 22px;
+}
+form input:focus {
+	box-shadow: red 0 0 0 2px;
+	border-radius: 3px;
+	border-color: red;
+}
+
+.label_f {
+	display: block;
+	font-size: 20px;
+}
+.btn-warning {
+
+}
+.knopka-zakaz {
+	margin-top: -82px;
+	position: relative;
+	background-image: url(../img/knopka-zakaz-big2.png);
+	background-repeat: no-repeat;
+	height: 51px;
+	width: 143px;
+	text-align: left;
+	padding-left: 2px;
+	float: left;
+	margin-left: 50px;
+	padding-top: 5px;
+}
+.knopka-zakaz a,
+.knopka_verh a {
+/*	font-family: "PFDinDisplayPro-Regular", sans-serif;	*/
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-shadow: 1px 2px 1px #000;
+}
+/*___ДЛЯ КНОПКИ ЗАКАЗАТЬ____*/
+/*___ИЗМЕНИЛ СЕГОДНЯ____*/
+.dop_sdvig {
+	margin-left: 16px;
+}
+.knopka_verh {
+	margin-top: 12px;
+}
+
+.knopka-back {
+	margin-top: -82px;
+	position: relative;
+	background-image: url(../img/knopka-back.png);
+	background-repeat: no-repeat;
+	height: 51px;
+	width: 151px;
+	text-align: left;
+	padding-left: 55px;
+	float: right;
+	margin-right: 32px;
+	padding-top: 5px;
+}
+.knopka-back a {
+/*	font-family: "PFDinDisplayPro-Regular", sans-serif;	*/
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-shadow: 1px 2px 1px #000;
+}
+
+.knopka-zakaz a:hover,
+.knopka-back a:hover {
+/*	color: #aaaa95;		*/
+	color: red;
+}
+
+.btn {
+	padding-top: 9px;
+}
+
+
+/*__СТИЛИ ОТ __magnificPopup___*/
+
+/* _ЦЕНТРИРОВАНИЕ КНОПКИ ВО ВСПЛЫВАЮЩЕЙ ФОРМЕ__*/
+.mfp-content {
+	text-align: center;
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+	font-size: 23px;
+	color: red;
+}
+.mfp-close {
+
+}
+
+/*__СТИЛИ ДЛЯ small___*/
+hr {
+	width: 90%;
+/*	margin:1em auto;	*/
+	border: none;
+	height: 1px;
+	background: #aaaa95;
+}
+
+.header_small h2 {
+	font-size: 23px;
+	font-family: "PFDinDisplayPro-Regular", sans-serif;
+/*	color: #A81816;		*/
+	color: red;
+	text-align: left;
+	margin-top: 35px;
+	padding: 0 20px;
+}
+.header_small p {
+	font-size: 15px;
+	color: #aaaa95;
+	line-height: 18px;
+	padding: 0 20px;
+}
+.header_small p span {
+	color: #FFF;
+}
+.header_small img {
+	margin-top: 16px;
+}
+
+.zag {
+	margin-top: 10px;
+	color: #FFF;
+	text-align: center;
+	position: relative;
+}
+
+.adres {
+	text-align: center;	
+}
+.adres p {
+	color: #FFF;
+
+}
+.adres p span {
+	color: red;
+}
+
+.top_mnu ul {
+	text-align: center;
+}
+.top_mnu ul li {
+/*	float: left;	*/
+	padding: 0px;
+	margin: 2px;
+	display: inline-block;
+	background-color: #4D4D43;
+	border-radius: 7px 7px 0 0;
+}
+.top_mnu ul li:focus {
+
+}
+.top_mnu ul li a:hover {
+	color: #FFF;
+	background-color: #A81816;
+	border-radius: 7px 7px 0 0;
+}
+.knopka_verh {
+	text-align: center;
+	position: relative;
+}

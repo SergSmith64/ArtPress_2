@@ -1,0 +1,3 @@
+User-Agent: *
+Host: http://artpress.biz
+Sitemap: http://artpress.biz/sitemap.xml

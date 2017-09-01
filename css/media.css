@@ -1,0 +1,325 @@
+/*==========  Desktop First Method  ==========*/
+
+/* SUPER-Large Devices, Wide Screens */
+/* @media only screen and (max-width: 1920px) */
+@media only screen and (max-width: 2560px) {
+	body {
+	/*	background: url(../img/_BG_Top_1920.jpg) no-repeat fixed top center;	*/
+	/*	background: url(../img/_BG_Top_1920_New.jpg) no-repeat fixed top center; */
+	/*	___ПРОБУЮ УБРАТЬ __fixed__ ЧТОБЫ ФОН ДВИГАЛСЯ ВМЕСТЕ С КОНТЕНТОМ : ____ */
+	/*	_______________________________________ПРОБУЮ УБРАТЬ __fixed_____ */
+		background: url(../img/_BG_Top_1920_New_Adr.jpg) no-repeat top center;
+	}
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	body {
+		background: url(../img/_BG_Top_1200_New_Adr.jpg) no-repeat top center;
+/*		background: url(../img/_BG_Top_1200.jpg) no-repeat fixed top center; 	*/
+	}
+	.header_big {
+		margin-top: 11px;
+	}
+/*	____________ВЕРХНЕЕ МЕНЮ____________ */
+	.nav > li > a {
+		font-size: 14px;
+	}
+	.sdvig {
+/*		margin-top: 22px;		*/
+		margin-top: 22px;
+/*		margin-left: 66px;		*/
+		margin-left: 69px;
+/*		margin-bottom: -15px;	*/
+		margin-bottom: -15px;
+	}
+
+	li.category_8 a {
+		margin-left: 37px;
+		margin-top: 77px;
+	}
+
+	li.category_9 a {
+		margin-left: 26px;
+		margin-top: 64px;
+	}
+
+	li.category_10 a {
+		margin-left: 11px;
+		margin-top: 96px;
+	}
+
+	li.category_11 a {
+		margin-left: 41px;
+		margin-top: 92px;
+	}
+
+	li.category_12 a {
+		margin-left: 123px;
+		margin-top: 65px;
+		line-height: 1.3;
+	}
+
+	li.category_13 a {
+		margin-left: 37px;
+		margin-top: 82px;
+		line-height: 1.3;
+	}
+
+/* __БОКОВОЕ ВЕРТИКАЛЬНОЕ МЕНЮ ___ */
+	li.category_1 a {
+		background: url(../img/Knopka_1_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 12px;
+	}
+	li.category_1 a:hover {
+		background: url(../img/Knopka_1_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 12px;
+	}
+
+	li.category_2 a {
+		background: url(../img/Knopka_2_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 41px;
+	}
+	li.category_2 a:hover {
+		background: url(../img/Knopka_2_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 41px;
+	}
+
+	li.category_3 a {
+		background: url(../img/Knopka_3_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 3px;
+	}
+	li.category_3 a:hover {
+		background: url(../img/Knopka_3_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 3px;
+	}
+
+	li.category_4 a {
+		background: url(../img/Knopka_4_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 18px;
+	}
+	li.category_4 a:hover {
+		background: url(../img/Knopka_4_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 18px;
+	}
+
+	li.category_5 a {
+		background: url(../img/Knopka_5_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 25px;
+	}
+	li.category_5 a:hover {
+		background: url(../img/Knopka_5_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+		margin-bottom: 25px;
+	}
+
+	li.category_6 a {
+		background: url(../img/Knopka_6_G_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+	}
+	li.category_6 a:hover {
+		background: url(../img/Knopka_6_R_90pr90.png) no-repeat;
+		width: 53px;
+		height: 156px;
+	}
+/* _______________________________ */
+	.sec_okno {
+/*	ПОДСВЕЧИВАЕМ ГОЛУБЫМ ЦВЕТОМ ФОН ОКНА	*/
+/*	background-color: cyan; 	*/
+	}
+
+/* __ЛЕВАЯ ЧАСТЬ ЕЖЕДНЕВНИКА ___ */
+	.txt_left, .txt_left_2 {
+		font-size: 14px;
+		margin-top: -563px;
+	}
+	.pic_souv img {
+		height: 160px;
+		width: 160px;
+		float: left;
+		margin: 4px 12px 5px 0;
+	}
+
+	.pic_fs3 img {
+		width: 200px;
+		/*margin: 6px 15px 0 0;*/
+	}
+
+	.pic_fs4 img {
+		width: 180px;
+	}
+
+/* ______КОСЛЫЛЬ___СТАТЬЯ_____ПРОИЗВОДИМ ТИРАЖИРОВАНИЕ ДОКУМЕНТОВ-1____ */
+
+.sdvig-tirazh-doc h2 {
+	margin-top: -7px;
+}
+
+
+/* ______ПРАВАЯ ЧАСТЬ ЕЖЕДНЕВНИКА ___ */
+	.txt_main {
+		font-size: 14px;
+		margin-top: -536px;
+		padding: 0 28px 0 52px;
+	}
+
+/*_______КАРТИНКИ-КНОПКИ_______*/
+	.big_up_1 {
+		margin-top: -530px;
+	}
+	.big_up_2 {
+		margin-top: -480px;
+	}
+	.big_up_3 {
+		margin-top: -235px;
+	}
+	.big_up_4 {
+		margin-top: -184px;
+	}
+/*__РАЗМЕЩАЮ 4 КАРТИНКИ НА ДИНАМИЧЕСКАЯ РЕКЛАМА__*/
+	.dyn_pic_wrap {
+		margin-top: -568px;
+	}
+
+
+/*_______КАРТА_______*/
+	.pic_map {
+		margin-top: -540px;
+		height: 80%;
+		width: 80%;
+		position: absolute;
+	}
+
+/* _______ФУТЕР_______ */
+
+	.knopka-zakaz {
+		margin-top: -191px;
+		margin-left: 38px;
+		background-image: url(../img/knopka-zakaz-big2_90.png);
+		height: 46px;
+		width: 129px;
+	}
+	.knopka-zakaz a {
+		font-size: 14px;
+		padding-left: 7px;
+	}
+	.knopka-back {
+		margin-top: -191px;
+		margin-right: 17px;
+		background-image: url(../img/knopka-back90.png);
+		height: 46px;
+		width: 136px;
+	}
+	.knopka-back a {
+		padding-left: 3px;
+	}
+	.social_block {
+		margin-top: -111px;
+	}
+	.btn {
+		padding-top: 6px;
+	}
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1000px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	body {
+		background-image: none;
+/*		background: url(../img/1200px/wood-fon-300px.jpg) repeat top center;	*/
+/*		background-color: #4D4D43;		*/
+		background-color: #303030;
+	}
+/*	___ФУТЕР____*/
+	.nav > li > a {
+		display: block;
+		padding: 2px 6px;
+		position: relative;
+		font-size: 17px;
+		text-transform: uppercase;
+	}
+	.knopka_verh .btn-danger {
+		background-color: #A81816;
+		padding: 5px 20px;
+		box-shadow: 0 4px 7px rgba(0, 0, 0, 0.92)
+	}
+	.knopka_verh .btn-danger:hover {
+		background-color: #7F0000;
+	}
+
+	.social_block {
+		margin-top: 12px;
+		margin-bottom: 30px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PFDinDisplayPro-Regular";
+	src: url("../fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.eot");
+	src: url("../fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.woff") format("woff"),
+			 url("../fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "PFDinDisplayPro-Light";
+	src: url("../fonts/PFDinDisplayPro-Light/PFDinDisplayPro-Light.eot");
+	src: url("../fonts/PFDinDisplayPro-Light/PFDinDisplayPro-Light.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/PFDinDisplayPro-Light/PFDinDisplayPro-Light.woff") format("woff"),
+			 url("../fonts/PFDinDisplayPro-Light/PFDinDisplayPro-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
