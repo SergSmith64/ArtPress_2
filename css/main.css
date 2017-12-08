@@ -533,6 +533,54 @@ li.category_6 a:hover {
 
 
 
+/* __NEW___STYLE__ */
+
+
+.pic_240_340 img {
+	width: 340px;
+	float: left;
+	margin: 6px 15px 0 0;
+}
+.pic_290_400 img {
+	width: 400px;
+	margin: 6px 15px 0 0;
+}
+.pic_280_410 img {
+	width: 410px;
+	margin: 6px 15px 0 15px;
+}
+
+
+/* __ОФОРМЛЕНИЕ ОГЛАВЛЕНИЯ ___ */
+
+.ogl {
+	border: 2px dotted #CCC;
+	position: relative;
+	display: inline-block;
+	margin: 5px 0;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.ogl::before {
+	color: #ccc;
+	content: " Содержание:";
+	line-height: 2em;
+}
+.ogl ul {
+	padding-left: 16px;
+}
+.ogl ul li a {
+	color: #a9a790;
+}
+
+.ogl ul li a:hover {
+	color: red;
+}
+
+
+/* __________________________ */
+
 .txt_left, .txt_left_2 {
 	margin-top: -652px;
 	font-size: 15px;

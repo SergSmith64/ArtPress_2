@@ -1,339 +1,369 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 <url>
-	<loc>http://artpress.biz/</loc>
-	<lastmod>2017-09-18T21:09:01+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/</loc>
+  <lastmod>2017-07-17T17:34:06+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/design.html</loc>
-	<lastmod>2017-09-18T21:09:02+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/design.html</loc>
+  <lastmod>2017-07-17T17:32:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/polygrafia.html</loc>
-	<lastmod>2017-09-18T21:09:04+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/polygrafia.html</loc>
+  <lastmod>2016-12-09T13:19:36+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/indoor.html</loc>
-	<lastmod>2017-09-18T21:09:04+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/indoor.html</loc>
+  <lastmod>2017-11-17T13:52:51+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/outdoor.html</loc>
-	<lastmod>2017-09-18T21:09:04+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/outdoor.html</loc>
+  <lastmod>2017-11-17T13:52:38+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/dynamic.html</loc>
-	<lastmod>2017-09-18T21:09:06+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/dynamic.html</loc>
+  <lastmod>2016-12-09T13:19:22+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/souvenir.html</loc>
-	<lastmod>2017-09-18T21:09:06+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/souvenir.html</loc>
+  <lastmod>2017-11-17T13:52:38+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/informacionnye-stendi.html</loc>
-	<lastmod>2017-09-18T21:09:06+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi.html</loc>
+  <lastmod>2017-11-17T13:52:51+00:00</lastmod>
+  <priority>0.99</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/index.html</loc>
-	<lastmod>2017-09-18T21:09:08+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/index.html</loc>
+  <lastmod>2017-07-17T17:34:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/about.html</loc>
-	<lastmod>2017-09-18T21:09:08+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/about.html</loc>
+  <lastmod>2016-12-09T13:19:16+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/articles.html</loc>
-	<lastmod>2017-09-18T21:09:09+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/articles.html</loc>
+  <lastmod>2017-11-17T13:52:48+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/clients.html</loc>
-	<lastmod>2017-09-18T21:09:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/clients.html</loc>
+  <lastmod>2016-12-09T13:19:19+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/vacancies.html</loc>
-	<lastmod>2017-09-18T21:09:10+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/vacancies.html</loc>
+  <lastmod>2016-12-09T13:19:41+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/contacts.html</loc>
-	<lastmod>2017-09-18T21:09:11+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/contacts.html</loc>
+  <lastmod>2017-07-17T17:34:06+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/akciya_vesna.html</loc>
-	<lastmod>2017-09-18T21:09:12+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/akciya_vesna.html</loc>
+  <lastmod>2016-12-09T13:19:16+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/logotypes.html</loc>
-	<lastmod>2017-09-18T21:09:12+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/logotypes.html</loc>
+  <lastmod>2016-12-09T13:19:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/vizitki.html</loc>
-	<lastmod>2017-09-18T21:09:13+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/vizitki.html</loc>
+  <lastmod>2016-12-09T13:19:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/diskonty.html</loc>
-	<lastmod>2017-09-18T21:09:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/diskonty.html</loc>
+  <lastmod>2016-12-09T13:19:21+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/fs.html</loc>
-	<lastmod>2017-09-18T21:09:14+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/fs.html</loc>
+  <lastmod>2016-12-09T13:19:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/otkrytki.html</loc>
-	<lastmod>2017-09-18T21:09:15+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/otkrytki.html</loc>
+  <lastmod>2016-12-09T13:19:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/listovki.html</loc>
-	<lastmod>2017-09-18T21:09:16+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/listovki.html</loc>
+  <lastmod>2016-12-09T13:19:29+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/booklet.html</loc>
-	<lastmod>2017-09-18T21:09:16+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/booklet.html</loc>
+  <lastmod>2016-12-09T13:19:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/kalendar.html</loc>
-	<lastmod>2017-09-18T21:09:17+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/kalendar.html</loc>
+  <lastmod>2016-12-09T13:19:28+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/banner.html</loc>
-	<lastmod>2017-09-18T21:09:18+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/banner.html</loc>
+  <lastmod>2016-12-09T13:19:18+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/vyveska.html</loc>
-	<lastmod>2017-09-18T21:09:19+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/vyveska.html</loc>
+  <lastmod>2016-12-09T13:19:14+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/stand.html</loc>
-	<lastmod>2017-09-18T21:09:19+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/stand.html</loc>
+  <lastmod>2016-12-09T13:19:39+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/svetovoy-korob.html</loc>
-	<lastmod>2017-09-18T21:09:21+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/svetovoy-korob.html</loc>
+  <lastmod>2016-12-09T13:19:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/informacionnye-stendi_2.html</loc>
-	<lastmod>2017-09-18T21:09:21+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/izgotovlenie-naruzhnoj-reklamy.html</loc>
+  <lastmod>2017-11-17T13:52:48+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/4-soveta-po-vyboru.html</loc>
-	<lastmod>2017-09-18T21:09:21+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi_2.html</loc>
+  <lastmod>2017-11-17T13:52:50+00:00</lastmod>
+  <priority>0.98</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/razrabotka-logotypa.html</loc>
-	<lastmod>2017-09-18T21:09:23+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi_3.html</loc>
+  <lastmod>2017-11-17T13:52:50+00:00</lastmod>
+  <priority>0.97</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/nuzhen-li-mne-firmennyi-stil.html</loc>
-	<lastmod>2017-09-18T21:09:23+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi_4.html</loc>
+  <lastmod>2017-11-17T13:52:50+00:00</lastmod>
+  <priority>0.96</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/oformlenie-gruppy-vkontakte.html</loc>
-	<lastmod>2017-09-18T21:09:24+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi_5.html</loc>
+  <lastmod>2017-11-17T13:52:50+00:00</lastmod>
+  <priority>0.95</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/izgotovlenie-naruzhnoj-reklamy.html</loc>
-	<lastmod>2017-09-18T21:09:26+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/informacionnye-stendi_6.html</loc>
+  <lastmod>2017-11-17T13:52:49+00:00</lastmod>
+  <priority>0.94</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/pakety-i-sumki-s-logotipom.html</loc>
-	<lastmod>2017-09-18T21:09:26+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/4-soveta-po-vyboru.html</loc>
+  <lastmod>2017-11-17T13:52:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/lenta-georgievskaya.html</loc>
-	<lastmod>2017-09-18T21:09:26+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/razrabotka-logotypa.html</loc>
+  <lastmod>2017-11-17T13:52:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/korporativniye-otkrytki-zakazat.html</loc>
-	<lastmod>2017-09-18T21:09:28+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/nuzhen-li-mne-firmennyi-stil.html</loc>
+  <lastmod>2017-11-17T13:52:45+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/tirazhirovanie-dokumentov.html</loc>
-	<lastmod>2017-09-18T21:09:28+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/oformlenie-gruppy-vkontakte.html</loc>
+  <lastmod>2017-11-17T13:52:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-vyvesku.html</loc>
-	<lastmod>2017-09-18T21:09:28+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/pakety-i-sumki-s-logotipom.html</loc>
+  <lastmod>2017-11-17T13:52:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-kalendari.html</loc>
-	<lastmod>2017-09-18T21:09:30+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/lenta-georgievskaya.html</loc>
+  <lastmod>2017-11-17T13:52:46+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/informacionnye-stendi_3.html</loc>
-	<lastmod>2017-09-18T21:09:30+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/korporativniye-otkrytki-zakazat.html</loc>
+  <lastmod>2017-11-17T13:52:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/4-soveta-po-vyboru_2.html</loc>
-	<lastmod>2017-09-18T21:09:30+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/tirazhirovanie-dokumentov.html</loc>
+  <lastmod>2017-11-17T13:52:42+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/razrabotka-logotypa_2.html</loc>
-	<lastmod>2017-09-18T21:09:32+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-vyvesku.html</loc>
+  <lastmod>2017-11-17T13:52:40+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/nuzhen-li-mne-firmennyi-stil_2.html</loc>
-	<lastmod>2017-09-18T21:09:32+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-kalendari.html</loc>
+  <lastmod>2017-11-17T13:52:41+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/oformlenie-gruppy-vkontakte_2.html</loc>
-	<lastmod>2017-09-18T21:09:32+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/izgotovlenie-naruzhnoj-reklamy_2.html</loc>
+  <lastmod>2017-11-17T13:52:48+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/izgotovlenie-naruzhnoj-reklamy_2.html</loc>
-	<lastmod>2017-09-18T21:09:34+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/4-soveta-po-vyboru_2.html</loc>
+  <lastmod>2017-11-17T13:52:49+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/pakety-i-sumki-s-logotipom_2.html</loc>
-	<lastmod>2017-09-18T21:09:34+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/razrabotka-logotypa_2.html</loc>
+  <lastmod>2017-11-17T13:52:43+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/lenta-georgievskaya_2.html</loc>
-	<lastmod>2017-09-18T21:09:34+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/nuzhen-li-mne-firmennyi-stil_2.html</loc>
+  <lastmod>2017-11-17T13:52:45+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/korporativniye-otkrytki-zakazat_2.html</loc>
-	<lastmod>2017-09-18T21:09:36+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/oformlenie-gruppy-vkontakte_2.html</loc>
+  <lastmod>2017-11-17T13:52:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/tirazhirovanie-dokumentov_2.html</loc>
-	<lastmod>2017-09-18T21:09:36+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/pakety-i-sumki-s-logotipom_2.html</loc>
+  <lastmod>2017-11-17T13:52:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-vyvesku_2.html</loc>
-	<lastmod>2017-09-18T21:09:37+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/lenta-georgievskaya_2.html</loc>
+  <lastmod>2017-11-17T13:52:45+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-kalendari_2.html</loc>
-	<lastmod>2017-09-18T21:09:38+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/korporativniye-otkrytki-zakazat_2.html</loc>
+  <lastmod>2017-11-17T13:52:47+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/4-soveta-po-vyboru_3.html</loc>
-	<lastmod>2017-09-18T21:09:38+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/tirazhirovanie-dokumentov_2.html</loc>
+  <lastmod>2017-11-17T13:52:42+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/izgotovlenie-naruzhnoj-reklamy_3.html</loc>
-	<lastmod>2017-09-18T21:09:39+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-vyvesku_2.html</loc>
+  <lastmod>2017-11-17T13:52:39+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/pakety-i-sumki-s-logotipom_3.html</loc>
-	<lastmod>2017-09-18T21:09:40+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-kalendari_2.html</loc>
+  <lastmod>2017-11-17T13:52:41+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/lenta-georgievskaya_3.html</loc>
-	<lastmod>2017-09-18T21:09:40+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/izgotovlenie-naruzhnoj-reklamy_3.html</loc>
+  <lastmod>2017-11-17T13:52:48+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/korporativniye-otkrytki-zakazat_3.html</loc>
-	<lastmod>2017-09-18T21:09:41+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/4-soveta-po-vyboru_3.html</loc>
+  <lastmod>2017-11-17T13:52:49+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/tirazhirovanie-dokumentov_3.html</loc>
-	<lastmod>2017-09-18T21:09:42+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/pakety-i-sumki-s-logotipom_3.html</loc>
+  <lastmod>2017-11-17T13:52:43+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-vyvesku_3.html</loc>
-	<lastmod>2017-09-18T21:09:42+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/lenta-georgievskaya_3.html</loc>
+  <lastmod>2017-11-17T13:52:45+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-kalendari_3.html</loc>
-	<lastmod>2017-09-18T21:09:43+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/korporativniye-otkrytki-zakazat_3.html</loc>
+  <lastmod>2017-11-17T13:52:46+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/pakety-i-sumki-s-logotipom_4.html</loc>
-	<lastmod>2017-09-18T21:09:44+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/tirazhirovanie-dokumentov_3.html</loc>
+  <lastmod>2017-11-17T13:52:42+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/korporativniye-otkrytki-zakazat_4.html</loc>
-	<lastmod>2017-09-18T21:09:44+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-vyvesku_3.html</loc>
+  <lastmod>2017-11-17T13:52:39+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/tirazhirovanie-dokumentov_4.html</loc>
-	<lastmod>2017-09-18T21:09:45+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-kalendari_3.html</loc>
+  <lastmod>2017-11-17T13:52:40+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-vyvesku_4.html</loc>
-	<lastmod>2017-09-18T21:09:46+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/izgotovlenie-naruzhnoj-reklamy_4.html</loc>
+  <lastmod>2017-11-17T13:52:47+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-kalendari_4.html</loc>
-	<lastmod>2017-09-18T21:09:46+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/pakety-i-sumki-s-logotipom_4.html</loc>
+  <lastmod>2017-11-17T13:52:43+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/tirazhirovanie-dokumentov_5.html</loc>
-	<lastmod>2017-09-18T21:09:47+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/korporativniye-otkrytki-zakazat_4.html</loc>
+  <lastmod>2017-11-17T13:52:46+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-vyvesku_5.html</loc>
-	<lastmod>2017-09-18T21:09:48+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/tirazhirovanie-dokumentov_4.html</loc>
+  <lastmod>2017-11-17T13:52:41+00:00</lastmod>
+  <priority>0.33</priority>
 </url>
 <url>
-	<loc>http://artpress.biz/zakazat-kalendari_5.html</loc>
-	<lastmod>2017-09-18T21:09:48+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>http://www.artpress.biz/zakazat-vyvesku_4.html</loc>
+  <lastmod>2017-11-17T13:52:39+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.artpress.biz/zakazat-kalendari_4.html</loc>
+  <lastmod>2017-11-17T13:52:40+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>http://www.artpress.biz/izgotovlenie-naruzhnoj-reklamy_5.html</loc>
+  <lastmod>2017-11-17T13:52:47+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.artpress.biz/tirazhirovanie-dokumentov_5.html</loc>
+  <lastmod>2017-11-17T13:52:41+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.artpress.biz/zakazat-vyvesku_5.html</loc>
+  <lastmod>2017-11-17T13:52:39+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>http://www.artpress.biz/zakazat-kalendari_5.html</loc>
+  <lastmod>2017-11-17T13:52:40+00:00</lastmod>
+  <priority>0.26</priority>
 </url>
 </urlset>
